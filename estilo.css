@@ -1,0 +1,32 @@
+a  {
+    color: rgb(240, 49, 81);
+    text-decoration: none;
+}
+
+a:visited, a:active {
+    color: rgb(17, 32, 134);
+}
+
+
+img {
+    width: 20vw;
+}
+
+#contenedorPaja {
+    width: 700px;
+    height: 500px;
+    border: black 3px solid;
+    position: relative;
+}
+ 
+.paja {
+    width: 7px;
+    height: 60px;
+    background-color: tan;
+    position: absolute;
+    border: black 1px solid;
+}
+
+@keyframes mover { 100% { transform:translateX(-10px); } }
+@keyframes spin2 { 100% { transform:rotate(-30deg); } }
+@keyframes idle { 100% {} }
